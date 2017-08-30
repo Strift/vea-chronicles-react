@@ -34,7 +34,7 @@ export default class App extends Component {
 
   renderNext = () => {
     return (
-      <Page content={<span>– Réveillez-vous. <Message content="Jeune [homme/femme], levez-vous." delay={1000} /></span>} />
+      <Page content={<span>– <Message content="Réveillez-vous. " speed={10}/><Message content="Jeune [homme/femme], levez-vous." delay={1000} speed={20}/></span>} />
     )
   }
 
